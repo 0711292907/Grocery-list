@@ -10,3 +10,6 @@ body {
     color: #3498db;
     font-size: 22px;
   }
+  input[type="text"]{
+    background-color : #f8f8f8;
+  }
