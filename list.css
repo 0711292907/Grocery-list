@@ -6,4 +6,7 @@ body {
     padding: 0;
     font-family: courier, monospace;
   }
-  
+  form {
+    color: #3498db;
+    font-size: 22px;
+  }
