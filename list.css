@@ -13,3 +13,7 @@ body {
   input[type="text"]{
     background-color : #f8f8f8;
   }
+  #addNeed {
+    background-color : #f8f8f8;
+    color: #3498db;
+  }
