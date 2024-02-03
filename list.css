@@ -31,3 +31,10 @@ body {
     letter-spacing: -2px;
     text-align: left;
   }
+  .list {
+    color: #555;
+    font-size: 22px;
+    padding: 0 !important;
+    width: 500px;
+    border: 1px solid #dedede;
+  }
