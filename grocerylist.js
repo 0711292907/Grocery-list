@@ -16,3 +16,15 @@ $(function() {
 		}
 		item.appendTo(list);
 	}
+    $('#addHave, #addNeed').click(callback);
+	
+	$('ul').on('click', 'li a', function(event){
+		$(event.target).parent('li').remove();
+	});
+
+	$('ul').on('click', 'input[type=checkbox]', function(event){
+		var listItem = $(event.target).parent('li'),
+			list = (event.target.checked) ? $('ul').last() : $('ul').first();
+		listItem.appendTo(list);
+	});
+});
